@@ -20,9 +20,8 @@
 }
 .header-center .list .list-menu {
 	list-style: none;
-	width: 220px;
+	width: 230px;
 	background-color: #23252a;
-	padding: 15px 0px;
 	position: absolute;
 	display: none;
 }
