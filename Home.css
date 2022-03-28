@@ -139,7 +139,8 @@ a.list-item:active {
 	display: flex;
 	margin-top: 100px;
 	position: relative;
-	animation: mymove 4s infinite;
+	animation: mymove 5s;
+	animation-fill-mode: forwards;
 }
 @keyframes mymove {
 	from {
@@ -149,9 +150,7 @@ a.list-item:active {
 		left: 160px;
 	}
 }
-.introduce:hover {
-	animation-play-state: paused;
-}
+
 .introduce-conten {
 	margin-right: 50px;
 	line-height: 20px;
