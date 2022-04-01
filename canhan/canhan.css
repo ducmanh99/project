@@ -35,8 +35,8 @@
 	border: none;
 }
 .header-left {
-	margin: 0 auto;
-	padding: 20px;
+	margin-left: 120px;
+	padding: 30px;
 }
 .header-center {
 	width: 100%;

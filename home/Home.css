@@ -35,8 +35,8 @@
 	border: none;
 }
 .header-left {
-	margin: 0 auto;
-	padding: 20px;
+	margin-left: 120px;
+	padding: 30px;
 }
 .header-center {
 	width: 100%;
@@ -58,6 +58,28 @@
 a.list-item:hover,
 a.list-item:active {
 	text-decoration: underline;
+}
+/* css ảnh tiêu đề */
+.img-title {
+	padding-top: 98px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* css nội dung title đầu tiên */
+.title-conten {
+	padding-top: 50px;
+	width: 80%;
+	margin: 0 auto;
+}
+.title-conten h2 {
+	padding-bottom: 50px;
+	font-size: 30px;
+	text-align: center;
+	color: #212f85;
+}
+.title-conten p {
+	padding: 5px;
 }
 /* css phần intro trang chủ */
 #slideshow {
@@ -318,14 +340,14 @@ a.list-item:active {
 .contact-text p {
 	font-size: 22px;
 }
-.contact-text a {
+.contact-text a i {
 	text-decoration: none;
 	color: black;
 	padding: 10px;
 	margin-top: 15px;
 	font-size: 40px;
 }
-.contact-text a:hover {
+.contact-text a:hover i {
 	background-color: white;
 	color: #212f85;
 }

@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	word-spacing: 3.5px;
+	font-family: Roboto, sans-serif;
+}
+/* css về thanh menu của trang */
+.header {
+	width: 100%;
+	position: fixed;
+	z-index: 100;
+	background-color: #23252a;
+	/* opacity: 90%; */
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+.list li {
+	position: relative;
+}
+.header-center .list .list-menu {
+	list-style: none;
+	width: 230px;
+	background-color: #23252a;
+	position: absolute;
+	display: none;
+}
+.header-center .list li:hover .list-menu {
+	display: block;
+}
+.list-menu a {
+	border-bottom: 0.5px solid #fff;
+}
+.list-menu li:last-child a {
+	border: none;
+}
+.header-left {
+	margin-left: 120px;
+	padding: 30px;
+}
+.header-center {
+	width: 100%;
+}
+.list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	padding: 20px;
+}
+.list-item {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+	padding-right: 30px;
+	color: white;
+}
+a.list-item:hover,
+a.list-item:active {
+	text-decoration: underline;
+}
+/* css ve title */
+.img-title{
+    padding-top: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.conten-title{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.conten-title h2{
+    color: #212f85;
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+/* css ve noi dung bai viet */
+.menu-block{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.menu-block-conten{
+    padding-right: 30px;
+}
+.menu-block-conten h4{
+    color: #212f85;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.menu-block-conten h5{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.menu-block-conten ul{
+    margin-bottom: 60px;
+}
+.menu-block-conten a{
+    text-decoration: none;
+    color: white;
+    background-color: #212f85;
+    padding: 10px 20px;
+    margin-left: 300px;
+}
+.menu-block-conten a:hover{
+    background-color: black;
+}
+.menu-block1{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.menu-block1-conten{
+    padding-left: 30px;
+}
+.menu-block1-conten h4{
+    color: #212f85;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.menu-block1-conten h5{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+.menu-block1-conten ul{
+    margin-bottom: 60px;
+}
+.menu-block1-conten a{
+    text-decoration: none;
+    color: white;
+    background-color: #212f85;
+    padding: 10px 20px;
+}
+.menu-block1-conten a:hover{
+    background-color: black;
+}
+.menu-block2{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.menu-block2 h4{
+    color: #212f85;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.menu-block2 p{
+    padding-bottom: 100px;
+}
+.menu-block2-conten a{
+    text-decoration: none;
+    color: white;
+    background-color: #212f85;
+    padding: 10px 20px;
+    margin-left: 20px;
+}
+.menu-block2-conten a:hover{
+    background-color: black;
+}
+
+/* css phần end kết nối */
+.contact-text {
+	text-align: center;
+	position: absolute;
+	top: 2610px;
+	left: 400px;
+}
+.contact-text h5 {
+	font-size: 45px;
+	padding-bottom: 25px;
+}
+.contact-text p {
+	font-size: 22px;
+}
+.contact-text a i {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	margin-top: 15px;
+	font-size: 40px;
+}
+.contact-text a:hover i {
+	background-color: white;
+	color: #212f85;
+}
+
