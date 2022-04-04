@@ -15,8 +15,15 @@ form.addEventListener("submit", (m) => {
 		userName: user,
 		pass: password,
 	};
-	const findUser = users.find((u) => u.userName === currentUser.userName);
-	console.log(currentUser);
-	console.log(users);
-	console.log(findUser);
+	const findUser = users.find(
+		(u) =>
+			u.username === currentUser.userName &&
+			u.password === currentUser.pass
+	);
+	if (findUser) {
+		localStorage.setItem("currentUser", JSON.stringify(findUser));
+		window.location.href = "/project/home/Home.html";
+	} else {
+		alert("Mật khẩu không đúng hoặc chưa có tài khoản");
+	}
 });
