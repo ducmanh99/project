@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block{
+    width: 500px;
+    height: 650px;
+    margin: 0 auto;
+    border: 1px solid none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 14px 14px;
+    margin-top: 30px;
+}
+.block h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: rgb(108, 108, 218);
+}
+#input{
+    padding: 25px;
+    font-size: 20px;
+}
+.inputname label{
+    padding-right: 30px;
+}
+.inputdate label{
+    padding-right: 25px;
+}
+.inputaddress label{
+    padding-right: 45px;
+}
+.inputemail label{
+    padding-right: 55px;
+}
+.inputphone label{
+    padding-right: 55px;
+}
+#input input{
+    font-size: 18px;
+}
+#input select{
+    font-size: 18px;
+}
+.select label{
+    padding-right: 40px;
+}
+.btn{
+    font-size: 20px;
+    padding: 5px 20px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}

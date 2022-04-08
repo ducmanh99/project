@@ -117,7 +117,10 @@ a.list-item:active {
 	padding: 10px 20px;
 	font-size: 20px;
 	margin-bottom: 30px;
-	cursor: pointer;
+	border: 1px solid black;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(87, 84, 84);
 }
 .btn:hover{
 	background-color: gray;
